@@ -1,0 +1,63 @@
+<svg width="700" height="180" viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated terminal typing: &gt; init()">
+  <style>
+    .terminal {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 72px;
+      font-weight: 700;
+      fill: #181717;
+    }
+
+    .cursor {
+      animation: blink 1s steps(1) infinite;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .terminal {
+        fill: #f0f0f0;
+      }
+    }
+
+    @keyframes blink {
+      0%, 45% {
+        opacity: 1;
+      }
+
+      46%, 100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <g class="terminal">
+    <text x="50%" y="105" text-anchor="middle">
+      <tspan>&gt; </tspan>
+
+      <tspan>
+        <animate attributeName="opacity" values="0;1;1;1;1;1;1" keyTimes="0;0.08;0.16;0.24;0.32;0.40;1" dur="5s" repeatCount="indefinite"></animate>
+        i
+      </tspan>
+
+      <tspan>
+        <animate attributeName="opacity" values="0;0;1;1;1;1;1" keyTimes="0;0.08;0.16;0.24;0.32;0.40;1" dur="5s" repeatCount="indefinite"></animate>
+        n
+      </tspan>
+
+      <tspan>
+        <animate attributeName="opacity" values="0;0;0;1;1;1;1" keyTimes="0;0.08;0.16;0.24;0.32;0.40;1" dur="5s" repeatCount="indefinite"></animate>
+        i
+      </tspan>
+
+      <tspan>
+        <animate attributeName="opacity" values="0;0;0;0;1;1;1" keyTimes="0;0.08;0.16;0.24;0.32;0.40;1" dur="5s" repeatCount="indefinite"></animate>
+        t
+      </tspan>
+
+      <tspan>
+        <animate attributeName="opacity" values="0;0;0;0;0;1;1" keyTimes="0;0.08;0.16;0.24;0.32;0.40;1" dur="5s" repeatCount="indefinite"></animate>
+        ()
+      </tspan>
+
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>
