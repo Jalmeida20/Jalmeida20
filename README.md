@@ -6,8 +6,6 @@
   />
 </p>
 
-<h3 align="center">José Almeida</h3>
-
 <p align="center">
   <samp>
     Welcome to my corner of GitHub.
