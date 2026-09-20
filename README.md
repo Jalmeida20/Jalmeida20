@@ -1,4 +1,12 @@
-<h1 align="center">José Almeida</h1>
+<p align="center">
+  <img
+    src="./assets/init.svg"
+    alt="Animated > init() terminal"
+    width="700"
+  />
+</p>
+
+<h3 align="center">José Almeida</h3>
 
 <p align="center">
   <samp>
